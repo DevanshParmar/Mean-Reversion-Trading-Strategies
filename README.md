@@ -61,8 +61,8 @@ Here, if autocorrelations exist (any sequential price movements possess non-zero
 <p align="center"> Var(𝛕) = 〈(log(t+𝛕) - log(t))<sup>2</sup>〉~ 𝛕<sup>2H</sup></p>
 
 According to the Hurst Exponent we obtain, we conclude as following:
-● H < 0.5 - Time series is mean reverting
-● H = 0.5 - Time series is random walking or in General Brownian Motion
-● H > 0.5 - Time series is trending
+* H < 0.5 - Time series is mean reverting
+* H = 0.5 - Time series is random walking or in General Brownian Motion
+* H > 0.5 - Time series is trending
 
 ![Hurst Exponent and Mean Reversion](https://github.com/DevanshParmar/Mean-Reversion-Trading-Strategies/blob/main/images/Variable%20Hurst%20Exponent.png)
