@@ -48,6 +48,10 @@ If a time series is stationary in nature, we observe that the probability distri
 
 
 #### 3.1.3. Hurst Exponent
-Hurst Exponent aims to classify a time series into one of the following: mean reverting, random walking or trending. The idea behind it is to look at the variance of log prices to assess the rate of diffusive behavior. For a time lag 𝛕, the variance is given by:
+Hurst Exponent aims to classify a time series into one of the following: mean reverting, random walking or trending. The idea behind it is to look at the variance of log prices to assess the rate of diffusive behavior. For a time lag 𝞃, the variance is given by:
 
-<p align="center"> Var(𝛕) = 〈|log(t+𝛕)-log(t)<sup>2</sup>〉</p>
+<p align="center"> Var(𝞃) = 〈(log(t+𝞃) - log(t))<sup>2</sup>〉</p>
+
+In case of random walking, or general brownian motion, we can conclude that the equation stated above directly depends on the time lag 𝞃:
+
+<p align="center"> Var(𝞃) = 〈(log(t+𝞃) - log(t))<sup>2</sup>〉~ 𝞃</p>
