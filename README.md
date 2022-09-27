@@ -56,6 +56,6 @@ In case of random walking, or general brownian motion, we can conclude that the 
 
 <p align="center"> Var(𝛕) = 〈(log(t+𝛕) - log(t))<sup>2</sup>〉~ 𝛕</p>
 
-Here, if autocorrelations exist (any sequential price movements possess non-zero correlation) this relation stated above does not stand. So to overcome this, we modify the 𝛕 variable to <sup>2H</sup>. This exponent factor of ‘2H’ is twice of the Hurst Exponent, i.e. H.
+Here, if autocorrelations exist (any sequential price movements possess non-zero correlation) this relation stated above does not stand. So to overcome this, we modify the 𝛕 variable to 𝛕<sup>2H</sup>. This exponent factor of ‘2H’ is twice of the Hurst Exponent, i.e. H.
 
 <p align="center"> Var(𝛕) = 〈(log(t+𝛕) - log(t))<sup>2</sup>〉~ 𝛕<sup>2H</sup></p>
