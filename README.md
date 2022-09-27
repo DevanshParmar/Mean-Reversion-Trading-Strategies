@@ -91,14 +91,14 @@ We have successfully identifed the top 10 best-performing stocks as per our MRT 
 * stock_data - contains the stock data of the year 2017 for 110 stocks, each in 90,000 data points
 * stocklist.txt - name-list of the 110 stocks in consideration
 * HurstStockSelection.py - contains functions to compute and publish hurst scores for stocks
- * hurst() - calculates hurst score for a stock
- * make_HurstScoresCSV() - publishes ___HurstScores.csv___, i.e. a CSV file containing the hurst scores of all stocks 
- * make_HurstSelectedStocksCSV() - publishes ___HurstSelectedStocks.csv___, i.e. a CSV file containing the hurst scores of selected stocks
+  * hurst() - calculates hurst score for a stock
+  * make_HurstScoresCSV() - publishes ___HurstScores.csv___, i.e. a CSV file containing the hurst scores of all stocks 
+  * make_HurstSelectedStocksCSV() - publishes ___HurstSelectedStocks.csv___, i.e. a CSV file containing the hurst scores of selected stocks
 * MakeProfitsCSV.py - contains functions to publish a CSV file of profits for various time periods
- * make_Profits1D_csv() - publishes ___Profits1D.csv___
- * make_Profits5D_csv() - publishes ___Profits5D.csv___
- * make_Profits14D_csv() - publishes ___Profits14D.csv___
+  * make_Profits1D_csv() - publishes ___Profits1D.csv___
+  * make_Profits5D_csv() - publishes ___Profits5D.csv___
+  * make_Profits14D_csv() - publishes ___Profits14D.csv___
 * HighPerformingStocks.py - contains functions to select and publish the stocks which are high performing
- * HighPerformingStocks() - selects top stocks according to the given parameters
- * make_TopStocksCSV() - publishes ___TopNStocks.csv___, where N can be any number, and here N=10
+  * HighPerformingStocks() - selects top stocks according to the given parameters
+  * make_TopStocksCSV() - publishes ___TopNStocks.csv___, where N can be any number, and here N=10
 * MRTS.ipynb - displays all the processes of the project
