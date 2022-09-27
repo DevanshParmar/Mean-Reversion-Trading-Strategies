@@ -42,6 +42,5 @@ In simple language, time series is a sequence of observations in a certain perio
 #### 3.1.2. Stationarity
 A time series is defined to be stationary if its joint probability distribution is mostly invariant under translations in time or space. In particular, and of key importance for traders, the mean and variance of the process do not change over time or space and they each do not follow a trend.
 
-<p align="center">
 ![Examples-for-stationary-and-non-stationary-time-series](https://github.com/DevanshParmar/Mean-Reversion-Trading-Strategies/blob/main/images/Examples-for-stationary-and-non-stationary-time-series.png)
-</p>
+![plot](images/Examples-for-stationary-and-non-stationary-time-series.png)
