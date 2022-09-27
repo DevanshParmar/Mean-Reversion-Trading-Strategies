@@ -43,4 +43,11 @@ In simple language, time series is a sequence of observations in a certain perio
 A time series is defined to be stationary if its joint probability distribution is mostly invariant under translations in time or space. In particular, and of key importance for traders, the mean and variance of the process do not change over time or space and they each do not follow a trend.
 
 ![Examples-for-stationary-and-non-stationary-time-series](https://github.com/DevanshParmar/Mean-Reversion-Trading-Strategies/blob/main/images/Examples-for-stationary-and-non-stationary-time-series.png)
-![plot](images/Examples-for-stationary-and-non-stationary-time-series.png)
+
+If a time series is stationary in nature, we observe that the probability distribution is invariant and hence a lot of factors somewhat constant remain in control and such a series is easier to work upon for statistical purposes. Hence, calculating the stationarity of the series is important. To calculate the stationarity of a time series, we have made use of the concept of Hurst Exponent.
+
+
+#### 3.1.3. Hurst Exponent
+Hurst Exponent aims to classify a time series into one of the following: mean reverting, random walking or trending. The idea behind it is to look at the variance of log prices to assess the rate of diffusive behavior. For a time lag 𝛕, the variance is given by:
+
+##### <p align="center"> Var(𝛕) = 〈|log(t+𝛕)-log(t)<sup>2</sup>〉</p>
